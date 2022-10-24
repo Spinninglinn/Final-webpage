@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
+header {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-image: url('../assets/header_back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 305px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header img {
+    margin: 10px;
+    width: 440px;
+}
+
+header nav {
+    align-self: flex-end;
+}
+
+header nav ul li img {
+    width: 140px;   
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.top-section {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+    .top-section {
+        flex-wrap: nowrap;
+    }
+}
+
+
+.home_hero {
+    background-color: #A2A6AB;
+    border-radius: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.buttons-container {
+    width: 90;
+    background-color: #A2A6AB;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button-logo {
+    width: 90%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 800px) {
+    .hero-container { 
+        width: 50%;
+    }
+    .buttons-container {
+        width: 50%;
+    }
+   
+}
+
+
+@media screen and (min-width: 800px) {
+    @media screen and (min-width: 800px)
+}
+
+
+.softcans {
+    width: 160px;
+    margin: 3%;
+    border-radius: 30%;
+}
+
+
+.streetart {
+    width: 160px;
+    margin: 3%;
+    border-radius: 30%;
+}
+
+
+.button-grey {
+    padding: 10px 30px 10px 30px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: #c8ccd1;
+    box-shadow: 5px 12px 20px #666666;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: #000;
+    margin: 10px;
+    min-width: 120px;
+    
+}
+
+.button-grey_orange {
+    border-bottom: 5px solid #ff7300;
+}
+
+.button-grey_purple {
+    border-bottom: 5px solid #dd00ff;
+}
+
+.button-grey_yellow {
+    border-bottom: 5px solid #ffff00;
+}
+
+.button-grey_blue {
+    border-bottom: 5px solid #120287;
+}
+
+.button-grey_red {
+    border-bottom: 5px solid #ff0000;
+}
+
+.button-grey_green {
+    border-bottom: 5px solid #2b8135;
+}
